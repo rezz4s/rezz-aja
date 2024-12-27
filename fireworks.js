@@ -27,7 +27,7 @@ function createFirework(x, y) {
 	anime({
 			targets: projectile,
 			translateY: -launchHeight,
-			duration: 2400,
+			duration: 1200,
 			easing: "easeOutQuad",
 			complete: () => {
 					projectile.remove();
